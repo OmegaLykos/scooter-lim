@@ -1,0 +1,79 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 65%;
+    margin: 3% auto ;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+/* logo */
+.logo {
+    width: 20%;
+}
+  
+/* titolo */
+h1 {
+    color: rgb(0, 221, 0);
+    font-family: sans-serif;
+}
+
+/* bottoni prenotazione */
+.div-button {
+    background-color: rgb(0, 221, 0);
+    padding: 1%;
+}
+
+input[type="button"] {
+    padding:1px;
+    border-radius: 0px;
+}
+  
+/* lista monopattini  */
+.row {
+    text-align: left;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+.testo-grande {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.indirizzo::before {
+    content: '\21A6';
+}
+
+.carica-70, .carica-100, .carica-30 {
+    border-radius: 5px;
+    height: 25px;
+}
+
+.carica-70 {
+    width: 250px;
+    background-color: rgb(245, 180, 83);
+}
+
+.carica-100 {
+    width: 350px;
+    background-color: rgb(30, 195, 30);
+}
+
+.carica-30 {
+    width: 100px;
+    background-color: rgb(190, 65, 65);
+}
